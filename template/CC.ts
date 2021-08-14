@@ -4,11 +4,9 @@ interface IProps {
 }
 
 interface IState {
-  name: string;
 }
 class {{PageHome}} extends Component<IProps, IState> {
   state: IState = {
-    name: ''
   }
 
   componentDidMount () {
@@ -21,7 +19,9 @@ class {{PageHome}} extends Component<IProps, IState> {
 
   render () {
     return (
-      <div className="pageContainer">这是类组建</div>
+      <>
+        <div className="pageContainer">这是类组建</div>
+      </>
     )
   }
 }

@@ -1,7 +1,7 @@
-import React, { useState, ReactNode } from 'react'
+import React, { useState } from 'react'
 
 interface PropsInterface {
-  children: ReactNode;
+  // children: ReactNode;
 }
 
 const {{PageName}}: React.FC<PropsInterface> = (props: PropsInterface) => {

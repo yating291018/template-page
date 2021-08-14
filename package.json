@@ -7,6 +7,9 @@
     "build": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "hu": "./dist/index.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
